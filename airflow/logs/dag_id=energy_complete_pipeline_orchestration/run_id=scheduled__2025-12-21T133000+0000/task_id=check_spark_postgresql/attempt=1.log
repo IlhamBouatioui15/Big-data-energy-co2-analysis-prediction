@@ -1,0 +1,51 @@
+[2025-12-21T14:07:49.780+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: energy_complete_pipeline_orchestration.check_spark_postgresql scheduled__2025-12-21T13:30:00+00:00 [queued]>
+[2025-12-21T14:07:49.851+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: energy_complete_pipeline_orchestration.check_spark_postgresql scheduled__2025-12-21T13:30:00+00:00 [queued]>
+[2025-12-21T14:07:49.864+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2025-12-21T14:07:50.008+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): check_spark_postgresql> on 2025-12-21 13:30:00+00:00
+[2025-12-21T14:07:50.052+0000] {standard_task_runner.py:57} INFO - Started process 766 to run task
+[2025-12-21T14:07:50.072+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'energy_complete_pipeline_orchestration', 'check_spark_postgresql', 'scheduled__2025-12-21T13:30:00+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/energy_pipeline_orchestration.py', '--cfg-path', '/tmp/tmpxjdvsh97']
+[2025-12-21T14:07:50.083+0000] {standard_task_runner.py:85} INFO - Job 80: Subtask check_spark_postgresql
+[2025-12-21T14:07:50.964+0000] {task_command.py:415} INFO - Running <TaskInstance: energy_complete_pipeline_orchestration.check_spark_postgresql scheduled__2025-12-21T13:30:00+00:00 [running]> on host 1fdfe70c11b0
+[2025-12-21T14:07:52.040+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='energy_team' AIRFLOW_CTX_DAG_ID='energy_complete_pipeline_orchestration' AIRFLOW_CTX_TASK_ID='check_spark_postgresql' AIRFLOW_CTX_EXECUTION_DATE='2025-12-21T13:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-21T13:30:00+00:00'
+[2025-12-21T14:07:52.045+0000] {logging_mixin.py:151} INFO - 
+======================================================================
+[2025-12-21T14:07:52.047+0000] {logging_mixin.py:151} INFO - ⚡ VÉRIFICATION SPARK STREAMING → POSTGRESQL
+[2025-12-21T14:07:52.051+0000] {logging_mixin.py:151} INFO - ======================================================================
+[2025-12-21T14:07:52.579+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-21T14:07:52.790+0000] {sql.py:418} INFO - Running statement: SELECT COUNT(*) FROM mix_energie_table, parameters: None
+[2025-12-21T14:07:52.795+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-21T14:07:53.012+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-21T14:07:53.239+0000] {sql.py:418} INFO - Running statement: SELECT MAX(processing_time) FROM mix_energie_table, parameters: None
+[2025-12-21T14:07:53.245+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-21T14:07:53.480+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-21T14:07:53.719+0000] {sql.py:418} INFO - Running statement: 
+                    SELECT COUNT(*) FROM mix_energie_table
+                    WHERE processing_time > NOW() - INTERVAL '10 minutes'
+                , parameters: None
+[2025-12-21T14:07:53.725+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-21T14:07:53.727+0000] {logging_mixin.py:151} INFO - ✅ mix_energie_table:
+[2025-12-21T14:07:53.728+0000] {logging_mixin.py:151} INFO -    Total: 1,416 enregistrements
+[2025-12-21T14:07:53.729+0000] {logging_mixin.py:151} INFO -    Dernière mise à jour: 2025-12-21 14:07:38.852011
+[2025-12-21T14:07:53.730+0000] {logging_mixin.py:151} INFO -    Nouveaux (10 min): 60
+[2025-12-21T14:07:53.895+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-21T14:07:54.045+0000] {sql.py:418} INFO - Running statement: SELECT COUNT(*) FROM carbone_energie_table, parameters: None
+[2025-12-21T14:07:54.050+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-21T14:07:54.239+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-21T14:07:54.397+0000] {sql.py:418} INFO - Running statement: SELECT MAX(processing_time) FROM carbone_energie_table, parameters: None
+[2025-12-21T14:07:54.402+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-21T14:07:54.632+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-21T14:07:54.815+0000] {sql.py:418} INFO - Running statement: 
+                    SELECT COUNT(*) FROM carbone_energie_table
+                    WHERE processing_time > NOW() - INTERVAL '10 minutes'
+                , parameters: None
+[2025-12-21T14:07:54.820+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-21T14:07:54.823+0000] {logging_mixin.py:151} INFO - ✅ carbone_energie_table:
+[2025-12-21T14:07:54.826+0000] {logging_mixin.py:151} INFO -    Total: 1,413 enregistrements
+[2025-12-21T14:07:54.827+0000] {logging_mixin.py:151} INFO -    Dernière mise à jour: 2025-12-21 14:07:38.289656
+[2025-12-21T14:07:54.828+0000] {logging_mixin.py:151} INFO -    Nouveaux (10 min): 60
+[2025-12-21T14:07:54.829+0000] {logging_mixin.py:151} INFO - 
+✅ Spark Streaming vers PostgreSQL opérationnel
+[2025-12-21T14:07:54.830+0000] {python.py:194} INFO - Done. Returned value was: True
+[2025-12-21T14:07:55.473+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=energy_complete_pipeline_orchestration, task_id=check_spark_postgresql, execution_date=20251221T133000, start_date=20251221T140749, end_date=20251221T140755
+[2025-12-21T14:07:55.653+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-21T14:07:56.582+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

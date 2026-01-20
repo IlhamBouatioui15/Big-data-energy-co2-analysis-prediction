@@ -1,0 +1,20 @@
+[2025-12-22T11:31:26.289+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: energy_complete_pipeline_orchestration.verify_postgresql_cassandra scheduled__2025-12-22T11:00:00+00:00 [queued]>
+[2025-12-22T11:31:26.310+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: energy_complete_pipeline_orchestration.verify_postgresql_cassandra scheduled__2025-12-22T11:00:00+00:00 [queued]>
+[2025-12-22T11:31:26.362+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2025-12-22T11:31:26.395+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): verify_postgresql_cassandra> on 2025-12-22 11:00:00+00:00
+[2025-12-22T11:31:26.414+0000] {standard_task_runner.py:57} INFO - Started process 723 to run task
+[2025-12-22T11:31:26.422+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'energy_complete_pipeline_orchestration', 'verify_postgresql_cassandra', 'scheduled__2025-12-22T11:00:00+00:00', '--job-id', '149', '--raw', '--subdir', 'DAGS_FOLDER/energy_pipeline_orchestration.py', '--cfg-path', '/tmp/tmpuua_kp9k']
+[2025-12-22T11:31:26.427+0000] {standard_task_runner.py:85} INFO - Job 149: Subtask verify_postgresql_cassandra
+[2025-12-22T11:31:27.181+0000] {task_command.py:415} INFO - Running <TaskInstance: energy_complete_pipeline_orchestration.verify_postgresql_cassandra scheduled__2025-12-22T11:00:00+00:00 [running]> on host 1fdfe70c11b0
+[2025-12-22T11:31:28.393+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='energy_team' AIRFLOW_CTX_DAG_ID='energy_complete_pipeline_orchestration' AIRFLOW_CTX_TASK_ID='verify_postgresql_cassandra' AIRFLOW_CTX_EXECUTION_DATE='2025-12-22T11:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-22T11:00:00+00:00'
+[2025-12-22T11:31:28.396+0000] {logging_mixin.py:151} INFO - 
+======================================================================
+[2025-12-22T11:31:28.397+0000] {logging_mixin.py:151} INFO - 🔄 VÉRIFICATION POSTGRESQL → CASSANDRA
+[2025-12-22T11:31:28.399+0000] {logging_mixin.py:151} INFO - ======================================================================
+[2025-12-22T11:31:35.832+0000] {logging_mixin.py:151} INFO - ✅ Keyspace 'energie' existe
+[2025-12-22T11:31:42.207+0000] {logging_mixin.py:151} INFO - ✅ Données présentes dans Cassandra (energie.mix_energie)
+[2025-12-22T11:31:42.210+0000] {logging_mixin.py:151} INFO -    Total: 100 enregistrements
+[2025-12-22T11:31:42.211+0000] {python.py:194} INFO - Done. Returned value was: True
+[2025-12-22T11:31:43.819+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=energy_complete_pipeline_orchestration, task_id=verify_postgresql_cassandra, execution_date=20251222T110000, start_date=20251222T113126, end_date=20251222T113143
+[2025-12-22T11:31:44.198+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-22T11:31:44.610+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

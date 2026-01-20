@@ -1,0 +1,119 @@
+[2025-12-20T22:50:56.132+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: simple_energy_data_verification.aggregate_hourly_data manual__2025-12-20T22:50:30.637226+00:00 [queued]>
+[2025-12-20T22:50:56.153+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: simple_energy_data_verification.aggregate_hourly_data manual__2025-12-20T22:50:30.637226+00:00 [queued]>
+[2025-12-20T22:50:56.155+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-12-20T22:50:56.215+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): aggregate_hourly_data> on 2025-12-20 22:50:30.637226+00:00
+[2025-12-20T22:50:56.242+0000] {standard_task_runner.py:57} INFO - Started process 644 to run task
+[2025-12-20T22:50:56.252+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'simple_energy_data_verification', 'aggregate_hourly_data', 'manual__2025-12-20T22:50:30.637226+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/energy_data_flow_orchestration.py', '--cfg-path', '/tmp/tmpi42jkd9h']
+[2025-12-20T22:50:56.258+0000] {standard_task_runner.py:85} INFO - Job 37: Subtask aggregate_hourly_data
+[2025-12-20T22:50:56.830+0000] {task_command.py:415} INFO - Running <TaskInstance: simple_energy_data_verification.aggregate_hourly_data manual__2025-12-20T22:50:30.637226+00:00 [running]> on host 678571ccefef
+[2025-12-20T22:50:57.720+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='energy_team' AIRFLOW_CTX_DAG_ID='simple_energy_data_verification' AIRFLOW_CTX_TASK_ID='aggregate_hourly_data' AIRFLOW_CTX_EXECUTION_DATE='2025-12-20T22:50:30.637226+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-20T22:50:30.637226+00:00'
+[2025-12-20T22:50:57.723+0000] {sql.py:274} INFO - Executing: 
+        -- Créer table d'agrégation si elle n'existe pas
+        CREATE TABLE IF NOT EXISTS hourly_energy_stats (
+            zone VARCHAR(10),
+            hour TIMESTAMP,
+            avg_production DOUBLE PRECISION,
+            avg_consumption DOUBLE PRECISION,
+            avg_renewable_pct DOUBLE PRECISION,
+            avg_fossil_free_pct DOUBLE PRECISION,
+            total_nuclear DOUBLE PRECISION,
+            total_wind DOUBLE PRECISION,
+            total_solar DOUBLE PRECISION,
+            total_hydro DOUBLE PRECISION,
+            record_count INTEGER,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            PRIMARY KEY (zone, hour)
+        );
+        
+        -- Agréger les données des dernières 24h
+        INSERT INTO hourly_energy_stats (
+            zone, hour, avg_production, avg_consumption,
+            avg_renewable_pct, avg_fossil_free_pct,
+            total_nuclear, total_wind, total_solar, total_hydro, record_count
+        )
+        SELECT 
+            zone,
+            DATE_TRUNC('hour', datetime) as hour,
+            AVG(production_total) as avg_production,
+            AVG(consumption_total) as avg_consumption,
+            AVG(renewable_percentage) as avg_renewable_pct,
+            AVG(fossil_free_percentage) as avg_fossil_free_pct,
+            SUM(nuclear) as total_nuclear,
+            SUM(wind) as total_wind,
+            SUM(solar) as total_solar,
+            SUM(hydro) as total_hydro,
+            COUNT(*) as record_count
+        FROM mix_energie_table
+        WHERE datetime >= NOW() - INTERVAL '24 hours'
+        GROUP BY zone, DATE_TRUNC('hour', datetime)
+        ON CONFLICT (zone, hour) 
+        DO UPDATE SET
+            avg_production = EXCLUDED.avg_production,
+            avg_consumption = EXCLUDED.avg_consumption,
+            avg_renewable_pct = EXCLUDED.avg_renewable_pct,
+            avg_fossil_free_pct = EXCLUDED.avg_fossil_free_pct,
+            total_nuclear = EXCLUDED.total_nuclear,
+            total_wind = EXCLUDED.total_wind,
+            total_solar = EXCLUDED.total_solar,
+            total_hydro = EXCLUDED.total_hydro,
+            record_count = EXCLUDED.record_count,
+            created_at = CURRENT_TIMESTAMP;
+    
+[2025-12-20T22:50:57.951+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T22:50:58.186+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T22:50:58.318+0000] {sql.py:418} INFO - Running statement: 
+        -- Créer table d'agrégation si elle n'existe pas
+        CREATE TABLE IF NOT EXISTS hourly_energy_stats (
+            zone VARCHAR(10),
+            hour TIMESTAMP,
+            avg_production DOUBLE PRECISION,
+            avg_consumption DOUBLE PRECISION,
+            avg_renewable_pct DOUBLE PRECISION,
+            avg_fossil_free_pct DOUBLE PRECISION,
+            total_nuclear DOUBLE PRECISION,
+            total_wind DOUBLE PRECISION,
+            total_solar DOUBLE PRECISION,
+            total_hydro DOUBLE PRECISION,
+            record_count INTEGER,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            PRIMARY KEY (zone, hour)
+        );
+        
+        -- Agréger les données des dernières 24h
+        INSERT INTO hourly_energy_stats (
+            zone, hour, avg_production, avg_consumption,
+            avg_renewable_pct, avg_fossil_free_pct,
+            total_nuclear, total_wind, total_solar, total_hydro, record_count
+        )
+        SELECT 
+            zone,
+            DATE_TRUNC('hour', datetime) as hour,
+            AVG(production_total) as avg_production,
+            AVG(consumption_total) as avg_consumption,
+            AVG(renewable_percentage) as avg_renewable_pct,
+            AVG(fossil_free_percentage) as avg_fossil_free_pct,
+            SUM(nuclear) as total_nuclear,
+            SUM(wind) as total_wind,
+            SUM(solar) as total_solar,
+            SUM(hydro) as total_hydro,
+            COUNT(*) as record_count
+        FROM mix_energie_table
+        WHERE datetime >= NOW() - INTERVAL '24 hours'
+        GROUP BY zone, DATE_TRUNC('hour', datetime)
+        ON CONFLICT (zone, hour) 
+        DO UPDATE SET
+            avg_production = EXCLUDED.avg_production,
+            avg_consumption = EXCLUDED.avg_consumption,
+            avg_renewable_pct = EXCLUDED.avg_renewable_pct,
+            avg_fossil_free_pct = EXCLUDED.avg_fossil_free_pct,
+            total_nuclear = EXCLUDED.total_nuclear,
+            total_wind = EXCLUDED.total_wind,
+            total_solar = EXCLUDED.total_solar,
+            total_hydro = EXCLUDED.total_hydro,
+            record_count = EXCLUDED.record_count,
+            created_at = CURRENT_TIMESTAMP;
+    , parameters: None
+[2025-12-20T22:50:58.364+0000] {sql.py:427} INFO - Rows affected: 40
+[2025-12-20T22:50:58.528+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=simple_energy_data_verification, task_id=aggregate_hourly_data, execution_date=20251220T225030, start_date=20251220T225056, end_date=20251220T225058
+[2025-12-20T22:50:58.600+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-20T22:50:58.837+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

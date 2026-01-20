@@ -1,0 +1,69 @@
+[2025-12-20T23:00:47.381+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: simple_energy_data_verification.generate_summary scheduled__2025-12-20T22:00:00+00:00 [queued]>
+[2025-12-20T23:00:47.400+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: simple_energy_data_verification.generate_summary scheduled__2025-12-20T22:00:00+00:00 [queued]>
+[2025-12-20T23:00:47.401+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-12-20T23:00:47.899+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): generate_summary> on 2025-12-20 22:00:00+00:00
+[2025-12-20T23:00:47.916+0000] {standard_task_runner.py:57} INFO - Started process 751 to run task
+[2025-12-20T23:00:47.923+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'simple_energy_data_verification', 'generate_summary', 'scheduled__2025-12-20T22:00:00+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/energy_data_flow_orchestration.py', '--cfg-path', '/tmp/tmp20q0rvxi']
+[2025-12-20T23:00:47.928+0000] {standard_task_runner.py:85} INFO - Job 43: Subtask generate_summary
+[2025-12-20T23:00:48.401+0000] {task_command.py:415} INFO - Running <TaskInstance: simple_energy_data_verification.generate_summary scheduled__2025-12-20T22:00:00+00:00 [running]> on host 678571ccefef
+[2025-12-20T23:00:50.128+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='energy_team' AIRFLOW_CTX_DAG_ID='simple_energy_data_verification' AIRFLOW_CTX_TASK_ID='generate_summary' AIRFLOW_CTX_EXECUTION_DATE='2025-12-20T22:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-20T22:00:00+00:00'
+[2025-12-20T23:00:50.130+0000] {logging_mixin.py:151} INFO - 
+============================================================
+[2025-12-20T23:00:50.131+0000] {logging_mixin.py:151} INFO - 📋 RAPPORT DE SYNTHÈSE
+[2025-12-20T23:00:50.132+0000] {logging_mixin.py:151} INFO - ============================================================
+[2025-12-20T23:00:50.133+0000] {logging_mixin.py:151} INFO - 🕐 2025-12-20 23:00:50
+[2025-12-20T23:00:50.134+0000] {logging_mixin.py:151} INFO - ============================================================
+[2025-12-20T23:00:50.135+0000] {logging_mixin.py:151} INFO - 📁 TABLES DISPONIBLES:
+[2025-12-20T23:00:50.275+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T23:00:50.414+0000] {sql.py:418} INFO - Running statement: 
+            SELECT table_name 
+            FROM information_schema.tables 
+            WHERE table_schema = 'public' 
+            AND table_name LIKE '%energie%'
+            ORDER BY table_name
+        , parameters: None
+[2025-12-20T23:00:50.425+0000] {sql.py:427} INFO - Rows affected: 4
+[2025-12-20T23:00:50.547+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T23:00:50.659+0000] {sql.py:418} INFO - Running statement: SELECT COUNT(*) FROM carbone_energie_processed, parameters: None
+[2025-12-20T23:00:50.662+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-20T23:00:50.664+0000] {logging_mixin.py:151} INFO -    ✅ carbone_energie_processed: 606 enregistrements
+[2025-12-20T23:00:50.785+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T23:00:50.978+0000] {sql.py:418} INFO - Running statement: SELECT COUNT(*) FROM carbone_energie_table, parameters: None
+[2025-12-20T23:00:50.981+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-20T23:00:50.983+0000] {logging_mixin.py:151} INFO -    ✅ carbone_energie_table: 448 enregistrements
+[2025-12-20T23:00:51.100+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T23:00:51.213+0000] {sql.py:418} INFO - Running statement: SELECT COUNT(*) FROM mix_energie_processed, parameters: None
+[2025-12-20T23:00:51.217+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-20T23:00:51.219+0000] {logging_mixin.py:151} INFO -    ✅ mix_energie_processed: 527 enregistrements
+[2025-12-20T23:00:51.348+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T23:00:51.545+0000] {sql.py:418} INFO - Running statement: SELECT COUNT(*) FROM mix_energie_table, parameters: None
+[2025-12-20T23:00:51.548+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-20T23:00:51.550+0000] {logging_mixin.py:151} INFO -    ✅ mix_energie_table: 448 enregistrements
+[2025-12-20T23:00:51.550+0000] {logging_mixin.py:151} INFO - 
+🕐 DERNIÈRES MISES À JOUR:
+[2025-12-20T23:00:51.671+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T23:00:51.784+0000] {sql.py:418} INFO - Running statement: 
+                SELECT MAX(processing_time) 
+                FROM mix_energie_table
+            , parameters: None
+[2025-12-20T23:00:51.787+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-20T23:00:51.788+0000] {logging_mixin.py:151} INFO -    Mix énergétique: 2025-12-20 23:00:38.179266
+[2025-12-20T23:00:51.925+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T23:00:52.086+0000] {sql.py:418} INFO - Running statement: 
+                SELECT MAX(processing_time) 
+                FROM carbone_energie_table
+            , parameters: None
+[2025-12-20T23:00:52.093+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-20T23:00:52.095+0000] {logging_mixin.py:151} INFO -    Intensité carbone: 2025-12-20 23:00:35.907416
+[2025-12-20T23:00:52.096+0000] {logging_mixin.py:151} INFO - 
+✅ ÉTAT DU PIPELINE:
+[2025-12-20T23:00:52.097+0000] {logging_mixin.py:151} INFO -    1. Producer → Kafka: À vérifier manuellement
+[2025-12-20T23:00:52.099+0000] {logging_mixin.py:151} INFO -    2. Kafka → MinIO: À vérifier manuellement
+[2025-12-20T23:00:52.101+0000] {logging_mixin.py:151} INFO -    3. Spark → PostgreSQL: Données présentes ✅
+[2025-12-20T23:00:52.102+0000] {logging_mixin.py:151} INFO -    4. Agrégations: Effectuées ✅
+[2025-12-20T23:00:52.103+0000] {logging_mixin.py:151} INFO - 
+============================================================
+[2025-12-20T23:00:52.104+0000] {python.py:194} INFO - Done. Returned value was: {'status': 'success'}
+[2025-12-20T23:00:52.704+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=simple_energy_data_verification, task_id=generate_summary, execution_date=20251220T220000, start_date=20251220T230047, end_date=20251220T230052
+[2025-12-20T23:00:52.852+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-20T23:00:53.192+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

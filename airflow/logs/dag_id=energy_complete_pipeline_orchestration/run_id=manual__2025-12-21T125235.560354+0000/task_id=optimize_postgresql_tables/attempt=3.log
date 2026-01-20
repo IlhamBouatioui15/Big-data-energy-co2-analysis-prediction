@@ -1,0 +1,23 @@
+[2025-12-21T14:07:07.855+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: energy_complete_pipeline_orchestration.optimize_postgresql_tables manual__2025-12-21T12:52:35.560354+00:00 [queued]>
+[2025-12-21T14:07:07.913+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: energy_complete_pipeline_orchestration.optimize_postgresql_tables manual__2025-12-21T12:52:35.560354+00:00 [queued]>
+[2025-12-21T14:07:07.916+0000] {taskinstance.py:1361} INFO - Starting attempt 3 of 3
+[2025-12-21T14:07:07.970+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): optimize_postgresql_tables> on 2025-12-21 12:52:35.560354+00:00
+[2025-12-21T14:07:07.990+0000] {standard_task_runner.py:57} INFO - Started process 726 to run task
+[2025-12-21T14:07:08.003+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'energy_complete_pipeline_orchestration', 'optimize_postgresql_tables', 'manual__2025-12-21T12:52:35.560354+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/energy_pipeline_orchestration.py', '--cfg-path', '/tmp/tmpj6tj01x9']
+[2025-12-21T14:07:08.011+0000] {standard_task_runner.py:85} INFO - Job 76: Subtask optimize_postgresql_tables
+[2025-12-21T14:07:10.265+0000] {task_command.py:415} INFO - Running <TaskInstance: energy_complete_pipeline_orchestration.optimize_postgresql_tables manual__2025-12-21T12:52:35.560354+00:00 [running]> on host 1fdfe70c11b0
+[2025-12-21T14:07:12.683+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='energy_team' AIRFLOW_CTX_DAG_ID='energy_complete_pipeline_orchestration' AIRFLOW_CTX_TASK_ID='optimize_postgresql_tables' AIRFLOW_CTX_EXECUTION_DATE='2025-12-21T12:52:35.560354+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-21T12:52:35.560354+00:00'
+[2025-12-21T14:07:12.702+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-12-21T14:07:12.717+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '\n        docker exec postgres psql -U admin -d energie_db -c "\n            VACUUM ANALYZE mix_energie_table;\n            VACUUM ANALYZE carbone_energie_table;\n        "\n    ']
+[2025-12-21T14:07:12.768+0000] {subprocess.py:86} INFO - Output:
+[2025-12-21T14:07:14.517+0000] {subprocess.py:93} INFO - ERROR:  VACUUM cannot run inside a transaction block
+[2025-12-21T14:07:14.673+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-12-21T14:07:14.968+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-12-21T14:07:14.983+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=energy_complete_pipeline_orchestration, task_id=optimize_postgresql_tables, execution_date=20251221T125235, start_date=20251221T140707, end_date=20251221T140714
+[2025-12-21T14:07:15.064+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 76 for task optimize_postgresql_tables (Bash command failed. The command returned a non-zero exit code 1.; 726)
+[2025-12-21T14:07:15.140+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-12-21T14:07:15.445+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

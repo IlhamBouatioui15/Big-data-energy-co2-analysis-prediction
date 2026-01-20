@@ -1,0 +1,21 @@
+Installer les dépendances dans le conteneur spark ou en local:
+
+-> docker exec -it spark-master bash
+
+-> docker exec -it --user root spark-master pip install xgboost scikit-learn pandas numpy matplotlib joblib
+
+
+entrainer le modèle:
+cd spark
+docker cp train_xgboost_model.py spark-master:/opt/spark-apps/
+
+exécuter l'entrainement
+->docker exec -it spark-master python3 /opt/spark-apps/train_xgboost_model.py
+
+-> Faire des prédictions:
+#copier le script de prédiction
+
+docker cp predict_consumption.py spark-master:/opt/spark-apps/
+
+#exécuter les prédictions
+docker exec -it spark-master python /opt/spark-apps/predict_consumption.py

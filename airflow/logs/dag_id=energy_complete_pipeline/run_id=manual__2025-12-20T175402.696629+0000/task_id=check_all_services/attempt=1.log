@@ -1,0 +1,35 @@
+[2025-12-20T17:54:44.198+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: energy_complete_pipeline.check_all_services manual__2025-12-20T17:54:02.696629+00:00 [queued]>
+[2025-12-20T17:54:44.225+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: energy_complete_pipeline.check_all_services manual__2025-12-20T17:54:02.696629+00:00 [queued]>
+[2025-12-20T17:54:44.226+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2025-12-20T17:54:44.749+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): check_all_services> on 2025-12-20 17:54:02.696629+00:00
+[2025-12-20T17:54:44.788+0000] {standard_task_runner.py:57} INFO - Started process 1502 to run task
+[2025-12-20T17:54:44.834+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'energy_complete_pipeline', 'check_all_services', 'manual__2025-12-20T17:54:02.696629+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/energy_data_pipeline.py', '--cfg-path', '/tmp/tmp74snn6e6']
+[2025-12-20T17:54:44.867+0000] {standard_task_runner.py:85} INFO - Job 9: Subtask check_all_services
+[2025-12-20T17:54:47.010+0000] {task_command.py:415} INFO - Running <TaskInstance: energy_complete_pipeline.check_all_services manual__2025-12-20T17:54:02.696629+00:00 [running]> on host 678571ccefef
+[2025-12-20T17:54:53.200+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='admin@energy.com' AIRFLOW_CTX_DAG_OWNER='energy_team' AIRFLOW_CTX_DAG_ID='energy_complete_pipeline' AIRFLOW_CTX_TASK_ID='check_all_services' AIRFLOW_CTX_EXECUTION_DATE='2025-12-20T17:54:02.696629+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-20T17:54:02.696629+00:00'
+[2025-12-20T17:54:53.212+0000] {logging_mixin.py:151} INFO - 
+============================================================
+[2025-12-20T17:54:53.213+0000] {logging_mixin.py:151} INFO - 🔍 VÉRIFICATION DES SERVICES
+[2025-12-20T17:54:53.215+0000] {logging_mixin.py:151} INFO - ============================================================
+[2025-12-20T17:54:59.937+0000] {logging_mixin.py:151} INFO - ✗ API Producer        : DOWN
+[2025-12-20T17:55:01.143+0000] {logging_mixin.py:151} INFO - ✗ Kafka               : DOWN
+[2025-12-20T17:55:01.877+0000] {logging_mixin.py:151} INFO - ✗ MinIO               : DOWN
+[2025-12-20T17:55:03.001+0000] {logging_mixin.py:151} INFO - ✗ Spark Master        : DOWN
+[2025-12-20T17:55:03.903+0000] {logging_mixin.py:151} INFO - ✗ Spark SQL Streaming : DOWN
+[2025-12-20T17:55:04.654+0000] {logging_mixin.py:151} INFO - ✗ PostgreSQL          : DOWN
+[2025-12-20T17:55:05.281+0000] {logging_mixin.py:151} INFO - ✗ Cassandra           : DOWN
+[2025-12-20T17:55:05.905+0000] {logging_mixin.py:151} INFO - ✗ Grafana             : DOWN
+[2025-12-20T17:55:05.920+0000] {logging_mixin.py:151} INFO - ============================================================
+[2025-12-20T17:55:05.925+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/energy_data_pipeline.py", line 87, in check_all_services
+    raise Exception(f"Certains services sont inactifs: {results}")
+Exception: Certains services sont inactifs: {'API Producer': 'DOWN', 'Kafka': 'DOWN', 'MinIO': 'DOWN', 'Spark Master': 'DOWN', 'Spark SQL Streaming': 'DOWN', 'PostgreSQL': 'DOWN', 'Cassandra': 'DOWN', 'Grafana': 'DOWN'}
+[2025-12-20T17:55:08.542+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=energy_complete_pipeline, task_id=check_all_services, execution_date=20251220T175402, start_date=20251220T175444, end_date=20251220T175508
+[2025-12-20T17:55:09.921+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 9 for task check_all_services (Certains services sont inactifs: {'API Producer': 'DOWN', 'Kafka': 'DOWN', 'MinIO': 'DOWN', 'Spark Master': 'DOWN', 'Spark SQL Streaming': 'DOWN', 'PostgreSQL': 'DOWN', 'Cassandra': 'DOWN', 'Grafana': 'DOWN'}; 1502)
+[2025-12-20T17:55:15.185+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-12-20T17:55:17.040+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

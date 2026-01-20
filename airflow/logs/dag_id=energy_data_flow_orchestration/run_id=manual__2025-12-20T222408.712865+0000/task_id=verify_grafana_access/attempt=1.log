@@ -1,0 +1,24 @@
+[2025-12-20T22:25:13.108+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: energy_data_flow_orchestration.verify_grafana_access manual__2025-12-20T22:24:08.712865+00:00 [queued]>
+[2025-12-20T22:25:13.128+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: energy_data_flow_orchestration.verify_grafana_access manual__2025-12-20T22:24:08.712865+00:00 [queued]>
+[2025-12-20T22:25:13.129+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2025-12-20T22:25:13.167+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): verify_grafana_access> on 2025-12-20 22:24:08.712865+00:00
+[2025-12-20T22:25:13.189+0000] {standard_task_runner.py:57} INFO - Started process 365 to run task
+[2025-12-20T22:25:13.195+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'energy_data_flow_orchestration', 'verify_grafana_access', 'manual__2025-12-20T22:24:08.712865+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/energy_data_flow_orchestration.py', '--cfg-path', '/tmp/tmpmeq36ie6']
+[2025-12-20T22:25:13.202+0000] {standard_task_runner.py:85} INFO - Job 29: Subtask verify_grafana_access
+[2025-12-20T22:25:14.132+0000] {task_command.py:415} INFO - Running <TaskInstance: energy_data_flow_orchestration.verify_grafana_access manual__2025-12-20T22:24:08.712865+00:00 [running]> on host 678571ccefef
+[2025-12-20T22:25:14.876+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='admin@energy.com' AIRFLOW_CTX_DAG_OWNER='energy_team' AIRFLOW_CTX_DAG_ID='energy_data_flow_orchestration' AIRFLOW_CTX_TASK_ID='verify_grafana_access' AIRFLOW_CTX_EXECUTION_DATE='2025-12-20T22:24:08.712865+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-20T22:24:08.712865+00:00'
+[2025-12-20T22:25:14.879+0000] {logging_mixin.py:151} INFO - 
+======================================================================
+[2025-12-20T22:25:14.880+0000] {logging_mixin.py:151} INFO - 📊 ÉTAPE 5: DONNÉES → GRAFANA
+[2025-12-20T22:25:14.881+0000] {logging_mixin.py:151} INFO - ======================================================================
+[2025-12-20T22:25:14.955+0000] {logging_mixin.py:151} INFO - ⚠️ Grafana répond mais statut inconnu
+[2025-12-20T22:25:15.103+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T22:25:15.246+0000] {sql.py:418} INFO - Running statement: SELECT COUNT(*) FROM hourly_energy_stats, parameters: None
+[2025-12-20T22:25:15.251+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-20T22:25:15.253+0000] {logging_mixin.py:151} INFO - 
+✅ Données agrégées disponibles: 40 points
+[2025-12-20T22:25:15.257+0000] {logging_mixin.py:151} INFO -    Ces données peuvent être visualisées dans Grafana
+[2025-12-20T22:25:15.259+0000] {python.py:194} INFO - Done. Returned value was: True
+[2025-12-20T22:25:15.667+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=energy_data_flow_orchestration, task_id=verify_grafana_access, execution_date=20251220T222408, start_date=20251220T222513, end_date=20251220T222515
+[2025-12-20T22:25:15.750+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-20T22:25:15.943+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

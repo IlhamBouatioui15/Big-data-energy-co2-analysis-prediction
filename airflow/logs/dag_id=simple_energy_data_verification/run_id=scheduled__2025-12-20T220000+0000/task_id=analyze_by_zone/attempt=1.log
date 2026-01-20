@@ -1,0 +1,53 @@
+[2025-12-20T23:00:17.738+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: simple_energy_data_verification.analyze_by_zone scheduled__2025-12-20T22:00:00+00:00 [queued]>
+[2025-12-20T23:00:17.763+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: simple_energy_data_verification.analyze_by_zone scheduled__2025-12-20T22:00:00+00:00 [queued]>
+[2025-12-20T23:00:17.765+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-12-20T23:00:17.822+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): analyze_by_zone> on 2025-12-20 22:00:00+00:00
+[2025-12-20T23:00:17.845+0000] {standard_task_runner.py:57} INFO - Started process 742 to run task
+[2025-12-20T23:00:17.855+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'simple_energy_data_verification', 'analyze_by_zone', 'scheduled__2025-12-20T22:00:00+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/energy_data_flow_orchestration.py', '--cfg-path', '/tmp/tmp_qdggqa9']
+[2025-12-20T23:00:17.860+0000] {standard_task_runner.py:85} INFO - Job 41: Subtask analyze_by_zone
+[2025-12-20T23:00:20.159+0000] {task_command.py:415} INFO - Running <TaskInstance: simple_energy_data_verification.analyze_by_zone scheduled__2025-12-20T22:00:00+00:00 [running]> on host 678571ccefef
+[2025-12-20T23:00:22.914+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='energy_team' AIRFLOW_CTX_DAG_ID='simple_energy_data_verification' AIRFLOW_CTX_TASK_ID='analyze_by_zone' AIRFLOW_CTX_EXECUTION_DATE='2025-12-20T22:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-20T22:00:00+00:00'
+[2025-12-20T23:00:22.923+0000] {logging_mixin.py:151} INFO - 
+============================================================
+[2025-12-20T23:00:22.925+0000] {logging_mixin.py:151} INFO - 📈 ANALYSE PAR ZONE
+[2025-12-20T23:00:22.927+0000] {logging_mixin.py:151} INFO - ============================================================
+[2025-12-20T23:00:23.196+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T23:00:23.546+0000] {sql.py:418} INFO - Running statement: 
+            SELECT COUNT(*) 
+            FROM information_schema.tables 
+            WHERE table_name = 'mix_energie_table'
+        , parameters: None
+[2025-12-20T23:00:23.574+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-20T23:00:23.850+0000] {base.py:73} INFO - Using connection ID 'postgres_energie' for task execution.
+[2025-12-20T23:00:24.203+0000] {sql.py:418} INFO - Running statement: 
+            SELECT 
+                zone,
+                COUNT(*) as nb_records,
+                ROUND(AVG(production_total)::numeric, 2) as avg_production,
+                ROUND(AVG(renewable_percentage)::numeric, 2) as avg_renewable,
+                ROUND(AVG(fossil_free_percentage)::numeric, 2) as avg_fossil_free
+            FROM mix_energie_table
+            WHERE datetime >= CURRENT_DATE - INTERVAL '7 days'
+            GROUP BY zone
+            ORDER BY nb_records DESC
+        , parameters: None
+[2025-12-20T23:00:24.211+0000] {sql.py:427} INFO - Rows affected: 10
+[2025-12-20T23:00:24.214+0000] {logging_mixin.py:151} INFO - Zone | Records | Prod Avg | Renewable% | Fossil-Free%
+[2025-12-20T23:00:24.215+0000] {logging_mixin.py:151} INFO - ------------------------------------------------------------
+[2025-12-20T23:00:24.220+0000] {logging_mixin.py:151} INFO - PT   |      46 |     8330 |      100.0 |         86.3
+[2025-12-20T23:00:24.221+0000] {logging_mixin.py:151} INFO - CA-ON |      46 |    17082 |       36.7 |         87.5
+[2025-12-20T23:00:24.222+0000] {logging_mixin.py:151} INFO - IT   |      46 |    31159 |       27.8 |         44.8
+[2025-12-20T23:00:24.223+0000] {logging_mixin.py:151} INFO - DE   |      45 |    54415 |       39.1 |         49.8
+[2025-12-20T23:00:24.224+0000] {logging_mixin.py:151} INFO - ES   |      45 |    28765 |       40.0 |         75.6
+[2025-12-20T23:00:24.226+0000] {logging_mixin.py:151} INFO - FR   |      45 |    86449 |       21.8 |         97.2
+[2025-12-20T23:00:24.227+0000] {logging_mixin.py:151} INFO - GB   |      45 |    39600 |       57.8 |         74.0
+[2025-12-20T23:00:24.228+0000] {logging_mixin.py:151} INFO - SE   |      44 |    18911 |       52.0 |        100.0
+[2025-12-20T23:00:24.229+0000] {logging_mixin.py:151} INFO - NO   |      43 |    22209 |       87.7 |         99.0
+[2025-12-20T23:00:24.231+0000] {logging_mixin.py:151} INFO - MA   |      42 |     2752 |       26.2 |         11.2
+[2025-12-20T23:00:24.233+0000] {logging_mixin.py:151} INFO - 
+✅ Analyse terminée
+[2025-12-20T23:00:24.234+0000] {logging_mixin.py:151} INFO - ============================================================
+[2025-12-20T23:00:24.236+0000] {python.py:194} INFO - Done. Returned value was: {'status': 'success', 'zones': 10}
+[2025-12-20T23:00:26.416+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=simple_energy_data_verification, task_id=analyze_by_zone, execution_date=20251220T220000, start_date=20251220T230017, end_date=20251220T230026
+[2025-12-20T23:00:26.888+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-20T23:00:27.074+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

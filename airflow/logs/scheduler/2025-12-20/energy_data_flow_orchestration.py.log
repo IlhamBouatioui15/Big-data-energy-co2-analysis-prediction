@@ -1,0 +1,606 @@
+[2025-12-20T22:17:41.725+0000] {processor.py:157} INFO - Started process (PID=2629) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:17:41.728+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:17:41.735+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:17:41.731+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:17:41.968+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:17:42.607+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:17:42.606+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:17:42.676+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:17:42.675+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:17:42.766+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 1.066 seconds
+[2025-12-20T22:18:13.798+0000] {processor.py:157} INFO - Started process (PID=2634) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:18:13.799+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:18:13.802+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:18:13.801+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:18:13.862+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:18:14.067+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:18:14.067+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:18:14.132+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:18:14.131+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:18:14.206+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.417 seconds
+[2025-12-20T22:18:44.406+0000] {processor.py:157} INFO - Started process (PID=2639) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:18:44.408+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:18:44.410+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:18:44.409+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:18:44.455+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:18:44.618+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:18:44.618+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:18:44.682+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:18:44.681+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:18:44.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.557 seconds
+[2025-12-20T22:19:15.888+0000] {processor.py:157} INFO - Started process (PID=2644) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:19:15.889+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:19:15.894+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:19:15.893+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:19:15.964+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:19:17.461+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:19:17.460+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:19:17.549+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:19:17.549+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:19:18.020+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 2.141 seconds
+[2025-12-20T22:20:30.133+0000] {processor.py:157} INFO - Started process (PID=174) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:20:30.137+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:20:30.193+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:20:30.189+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:20:30.504+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:20:30.908+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:20:30.908+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:20:31.588+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:20:31.587+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:20:31.919+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 1.831 seconds
+[2025-12-20T22:21:02.297+0000] {processor.py:157} INFO - Started process (PID=196) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:21:02.300+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:21:02.306+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:21:02.304+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:21:02.828+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:21:03.482+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:21:03.481+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:21:04.466+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:21:04.465+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:21:05.345+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 3.068 seconds
+[2025-12-20T22:21:36.209+0000] {processor.py:157} INFO - Started process (PID=219) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:21:36.210+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:21:36.212+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:21:36.211+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:21:36.251+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:21:36.497+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:21:36.497+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:21:36.580+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:21:36.580+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:21:36.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.565 seconds
+[2025-12-20T22:22:06.960+0000] {processor.py:157} INFO - Started process (PID=224) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:22:06.963+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:22:06.966+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:22:06.965+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:22:07.018+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:22:07.208+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:22:07.207+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:22:07.290+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:22:07.290+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:22:07.373+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.427 seconds
+[2025-12-20T22:22:37.963+0000] {processor.py:157} INFO - Started process (PID=229) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:22:37.970+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:22:37.981+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:22:37.980+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:22:38.106+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:22:38.690+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:22:38.689+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:22:39.150+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:22:39.150+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:22:39.232+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 1.305 seconds
+[2025-12-20T22:23:09.761+0000] {processor.py:157} INFO - Started process (PID=234) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:23:09.766+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:23:09.769+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:23:09.768+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:23:10.068+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:23:10.436+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:23:10.436+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:23:10.485+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:23:10.485+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:23:10.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.790 seconds
+[2025-12-20T22:23:41.078+0000] {processor.py:157} INFO - Started process (PID=239) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:23:41.082+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:23:41.087+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:23:41.086+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:23:41.136+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:23:41.402+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:23:41.401+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:23:41.471+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:23:41.470+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:23:41.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.469 seconds
+[2025-12-20T22:24:12.114+0000] {processor.py:157} INFO - Started process (PID=245) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:24:12.130+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:24:12.147+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:24:12.146+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:24:12.491+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:24:14.840+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:24:14.829+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:24:15.221+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:24:15.220+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:24:15.411+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 3.384 seconds
+[2025-12-20T22:24:46.127+0000] {processor.py:157} INFO - Started process (PID=340) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:24:46.132+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:24:46.155+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:24:46.148+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:24:46.299+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:24:46.932+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:24:46.932+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:24:47.571+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:24:47.570+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:24:47.701+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 1.623 seconds
+[2025-12-20T22:25:18.040+0000] {processor.py:157} INFO - Started process (PID=375) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:25:18.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:25:18.047+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:25:18.046+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:25:18.187+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:25:18.650+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:25:18.650+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:25:18.720+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:25:18.720+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:25:18.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.753 seconds
+[2025-12-20T22:25:49.571+0000] {processor.py:157} INFO - Started process (PID=383) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:25:49.575+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:25:49.580+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:25:49.579+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:25:49.654+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:25:50.126+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:25:50.125+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:25:50.227+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:25:50.227+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:25:50.318+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.753 seconds
+[2025-12-20T22:26:20.822+0000] {processor.py:157} INFO - Started process (PID=388) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:26:20.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:26:20.830+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:26:20.829+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:26:20.869+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:26:21.092+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:26:21.092+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:26:21.171+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:26:21.170+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:26:21.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.456 seconds
+[2025-12-20T22:26:51.976+0000] {processor.py:157} INFO - Started process (PID=393) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:26:51.977+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:26:51.980+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:26:51.979+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:26:52.079+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:26:52.327+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:26:52.327+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:26:52.388+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:26:52.388+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:26:52.472+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.505 seconds
+[2025-12-20T22:27:23.130+0000] {processor.py:157} INFO - Started process (PID=398) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:27:23.134+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:27:23.151+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:27:23.150+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:27:23.233+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:27:23.497+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:27:23.496+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:27:23.614+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:27:23.614+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:27:23.762+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.649 seconds
+[2025-12-20T22:27:53.954+0000] {processor.py:157} INFO - Started process (PID=403) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:27:53.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:27:53.957+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:27:53.957+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:27:54.009+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:27:54.247+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:27:54.246+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:27:54.308+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:27:54.307+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:27:54.375+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.428 seconds
+[2025-12-20T22:28:25.186+0000] {processor.py:157} INFO - Started process (PID=408) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:28:25.188+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:28:25.192+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:28:25.191+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:28:25.273+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:28:25.458+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:28:25.457+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:28:25.511+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:28:25.510+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:28:25.571+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.392 seconds
+[2025-12-20T22:28:55.766+0000] {processor.py:157} INFO - Started process (PID=413) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:28:55.767+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:28:55.768+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:28:55.768+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:28:55.829+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:28:56.023+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:28:56.023+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:28:56.072+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:28:56.071+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:28:56.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.382 seconds
+[2025-12-20T22:29:26.618+0000] {processor.py:157} INFO - Started process (PID=418) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:29:26.619+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:29:26.622+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:29:26.621+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:29:26.674+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:29:27.016+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:29:27.016+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:29:27.075+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:29:27.075+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:29:27.156+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.544 seconds
+[2025-12-20T22:29:57.330+0000] {processor.py:157} INFO - Started process (PID=423) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:29:57.332+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:29:57.334+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:29:57.333+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:29:57.376+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:29:57.548+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:29:57.548+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:29:57.605+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:29:57.605+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:29:57.675+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.350 seconds
+[2025-12-20T22:30:27.876+0000] {processor.py:157} INFO - Started process (PID=428) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:30:27.878+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:30:27.880+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:30:27.880+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:30:27.943+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:30:28.186+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:30:28.185+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:30:28.286+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:30:28.285+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:30:28.360+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.495 seconds
+[2025-12-20T22:30:58.773+0000] {processor.py:157} INFO - Started process (PID=433) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:30:58.775+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:30:58.777+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:30:58.776+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:30:58.823+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:30:59.115+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:30:59.115+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:30:59.172+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:30:59.171+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:30:59.234+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.469 seconds
+[2025-12-20T22:31:29.397+0000] {processor.py:157} INFO - Started process (PID=438) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:31:29.400+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:31:29.404+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:31:29.403+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:31:29.476+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:31:29.743+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:31:29.742+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:31:29.829+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:31:29.828+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:31:29.895+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.512 seconds
+[2025-12-20T22:32:00.100+0000] {processor.py:157} INFO - Started process (PID=443) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:32:00.101+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:32:00.103+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:32:00.102+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:32:00.140+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:32:00.318+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:32:00.317+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:32:00.375+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:32:00.375+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:32:00.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.344 seconds
+[2025-12-20T22:32:30.671+0000] {processor.py:157} INFO - Started process (PID=448) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:32:30.673+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:32:30.675+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:32:30.674+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:32:30.718+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:32:31.027+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:32:31.025+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:32:31.278+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:32:31.277+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:32:31.388+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.723 seconds
+[2025-12-20T22:33:01.983+0000] {processor.py:157} INFO - Started process (PID=453) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:33:01.984+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:33:01.986+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:33:01.985+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:33:02.041+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:33:02.254+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:33:02.254+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:33:02.333+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:33:02.333+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:33:02.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.481 seconds
+[2025-12-20T22:33:32.923+0000] {processor.py:157} INFO - Started process (PID=458) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:33:32.924+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:33:32.928+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:33:32.927+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:33:32.984+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:33:33.205+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:33:33.204+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:33:33.268+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:33:33.268+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:33:33.391+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.478 seconds
+[2025-12-20T22:34:03.784+0000] {processor.py:157} INFO - Started process (PID=463) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:34:03.786+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:34:03.788+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:34:03.788+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:34:03.856+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:34:05.508+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:34:05.507+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:34:05.747+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:34:05.747+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:34:06.637+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 2.860 seconds
+[2025-12-20T22:34:37.169+0000] {processor.py:157} INFO - Started process (PID=468) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:34:37.172+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:34:37.175+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:34:37.174+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:34:37.235+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:34:37.541+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:34:37.540+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:34:37.688+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:34:37.688+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:34:37.825+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.666 seconds
+[2025-12-20T22:35:08.252+0000] {processor.py:157} INFO - Started process (PID=473) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:35:08.254+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:35:08.257+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:35:08.256+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:35:08.345+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:35:08.840+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:35:08.839+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:35:08.995+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:35:08.995+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:35:09.083+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.846 seconds
+[2025-12-20T22:35:40.041+0000] {processor.py:157} INFO - Started process (PID=478) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:35:40.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:35:40.045+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:35:40.044+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:35:40.106+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:35:40.414+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:35:40.414+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:35:40.507+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:35:40.506+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:35:40.623+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.588 seconds
+[2025-12-20T22:36:11.224+0000] {processor.py:157} INFO - Started process (PID=483) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:36:11.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:36:11.228+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:36:11.227+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:36:11.314+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:36:11.851+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:36:11.850+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:36:12.066+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:36:12.065+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:36:12.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.962 seconds
+[2025-12-20T22:36:42.744+0000] {processor.py:157} INFO - Started process (PID=488) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:36:42.747+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:36:42.749+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:36:42.748+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:36:42.815+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:36:43.012+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:36:43.012+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:36:43.081+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:36:43.081+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:36:43.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.411 seconds
+[2025-12-20T22:37:13.688+0000] {processor.py:157} INFO - Started process (PID=493) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:37:13.690+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:37:13.693+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:37:13.692+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:37:13.795+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:37:14.071+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:37:14.070+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:37:14.168+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:37:14.166+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:37:14.246+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.576 seconds
+[2025-12-20T22:37:44.675+0000] {processor.py:157} INFO - Started process (PID=498) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:37:44.676+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:37:44.679+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:37:44.678+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:37:44.717+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:37:44.882+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:37:44.881+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:37:44.930+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:37:44.930+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:37:45.454+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.785 seconds
+[2025-12-20T22:38:16.250+0000] {processor.py:157} INFO - Started process (PID=503) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:38:16.252+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:38:16.254+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:38:16.253+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:38:16.309+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:38:16.620+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:38:16.619+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:38:16.759+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:38:16.758+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:38:17.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.814 seconds
+[2025-12-20T22:38:47.718+0000] {processor.py:157} INFO - Started process (PID=508) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:38:47.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:38:47.721+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:38:47.721+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:38:47.770+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:38:48.087+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:38:48.087+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:38:48.221+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:38:48.220+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:38:48.350+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.642 seconds
+[2025-12-20T22:39:19.216+0000] {processor.py:157} INFO - Started process (PID=513) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:39:19.218+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:39:19.219+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:39:19.219+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:39:19.331+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:39:19.527+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:39:19.527+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:39:19.614+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:39:19.614+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:39:19.677+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.468 seconds
+[2025-12-20T22:39:50.055+0000] {processor.py:157} INFO - Started process (PID=518) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:39:50.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:39:50.058+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:39:50.058+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:39:50.107+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:39:50.311+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:39:50.311+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:39:50.436+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:39:50.436+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:39:50.490+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.443 seconds
+[2025-12-20T22:40:20.857+0000] {processor.py:157} INFO - Started process (PID=523) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:40:20.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:40:20.860+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:40:20.860+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:40:20.916+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:40:21.183+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:40:21.183+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:40:21.252+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:40:21.251+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:40:21.326+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.476 seconds
+[2025-12-20T22:40:52.443+0000] {processor.py:157} INFO - Started process (PID=528) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:40:52.457+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:40:52.467+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:40:52.466+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:40:52.634+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:40:53.128+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:40:53.127+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:40:53.227+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:40:53.227+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:40:53.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.886 seconds
+[2025-12-20T22:41:23.733+0000] {processor.py:157} INFO - Started process (PID=533) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:41:23.736+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:41:23.739+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:41:23.738+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:41:23.820+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:41:24.001+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:41:24.000+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:41:24.080+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:41:24.079+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:41:24.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.438 seconds
+[2025-12-20T22:41:54.650+0000] {processor.py:157} INFO - Started process (PID=538) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:41:54.651+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:41:54.654+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:41:54.653+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:41:54.703+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:41:54.876+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:41:54.876+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:41:54.925+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:41:54.925+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:41:55.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.360 seconds
+[2025-12-20T22:42:25.464+0000] {processor.py:157} INFO - Started process (PID=543) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:42:25.466+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:42:25.468+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:42:25.467+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:42:25.517+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:42:25.720+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:42:25.720+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:42:25.800+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:42:25.799+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:42:25.874+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.423 seconds
+[2025-12-20T22:42:56.363+0000] {processor.py:157} INFO - Started process (PID=548) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:42:56.365+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:42:56.366+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:42:56.366+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:42:56.409+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:42:56.572+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:42:56.571+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:42:56.624+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:42:56.623+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:42:57.053+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.697 seconds
+[2025-12-20T22:43:27.287+0000] {processor.py:157} INFO - Started process (PID=553) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:43:27.289+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:43:27.290+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:43:27.290+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:43:27.334+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:43:27.507+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:43:27.506+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:43:27.564+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:43:27.564+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:43:27.632+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.350 seconds
+[2025-12-20T22:43:57.866+0000] {processor.py:157} INFO - Started process (PID=558) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:43:57.870+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:43:57.872+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:43:57.871+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:43:57.926+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:43:58.118+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:43:58.118+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:43:58.170+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:43:58.170+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:43:58.232+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.373 seconds
+[2025-12-20T22:44:28.636+0000] {processor.py:157} INFO - Started process (PID=563) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:44:28.637+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:44:28.644+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:44:28.640+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:44:28.701+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:44:28.873+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:44:28.872+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:44:28.958+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:44:28.957+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:44:29.025+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.405 seconds
+[2025-12-20T22:44:59.457+0000] {processor.py:157} INFO - Started process (PID=568) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:44:59.459+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:44:59.462+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:44:59.461+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:44:59.508+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:44:59.721+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:44:59.720+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:44:59.767+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:44:59.767+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:44:59.829+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.379 seconds
+[2025-12-20T22:45:30.097+0000] {processor.py:157} INFO - Started process (PID=573) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:45:30.101+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:45:30.127+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:45:30.122+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:45:30.376+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:45:31.343+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:45:31.342+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:45:31.560+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:45:31.559+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:45:31.679+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 1.607 seconds
+[2025-12-20T22:46:01.909+0000] {processor.py:157} INFO - Started process (PID=578) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:46:01.910+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:46:01.913+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:01.912+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:46:01.963+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:46:02.262+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:02.261+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:46:02.339+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:02.338+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:46:02.777+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.876 seconds
+[2025-12-20T22:46:33.435+0000] {processor.py:157} INFO - Started process (PID=583) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:46:33.436+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:46:33.439+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:33.438+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:46:33.481+0000] {processor.py:839} INFO - DAG(s) dict_keys(['energy_data_flow_orchestration']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:46:33.669+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:33.669+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:46:33.740+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:33.740+0000] {dag.py:3677} INFO - Setting next_dagrun for energy_data_flow_orchestration to 2025-12-20T00:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T22:46:33.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.378 seconds
+[2025-12-20T22:46:46.234+0000] {processor.py:157} INFO - Started process (PID=588) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:46:46.236+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:46:46.238+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:46.237+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:46:46.305+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:46:46.705+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:46.704+0000] {manager.py:501} INFO - Created Permission View: can edit on DAG:simple_energy_data_verification
+[2025-12-20T22:46:46.756+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:46.755+0000] {manager.py:501} INFO - Created Permission View: can read on DAG:simple_energy_data_verification
+[2025-12-20T22:46:46.795+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:46.795+0000] {manager.py:501} INFO - Created Permission View: can delete on DAG:simple_energy_data_verification
+[2025-12-20T22:46:46.830+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:46.830+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:46:46.854+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:46.854+0000] {dag.py:2929} INFO - Creating ORM DAG for simple_energy_data_verification
+[2025-12-20T22:46:46.883+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:46:46.882+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T21:00:00+00:00, run_after=2025-12-20T22:00:00+00:00
+[2025-12-20T22:46:46.942+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.714 seconds
+[2025-12-20T22:47:17.442+0000] {processor.py:157} INFO - Started process (PID=593) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:47:17.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:47:17.445+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:47:17.445+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:47:17.486+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:47:17.648+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:47:17.648+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:47:17.701+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:47:17.701+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T21:00:00+00:00, run_after=2025-12-20T22:00:00+00:00
+[2025-12-20T22:47:17.762+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.325 seconds
+[2025-12-20T22:47:48.261+0000] {processor.py:157} INFO - Started process (PID=598) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:47:48.262+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:47:48.264+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:47:48.263+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:47:48.307+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:47:48.466+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:47:48.466+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:47:48.526+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:47:48.526+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T21:00:00+00:00, run_after=2025-12-20T22:00:00+00:00
+[2025-12-20T22:47:48.595+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.339 seconds
+[2025-12-20T22:48:19.368+0000] {processor.py:157} INFO - Started process (PID=603) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:48:19.369+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:48:19.371+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:48:19.370+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:48:19.409+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:48:19.584+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:48:19.583+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:48:19.645+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:48:19.644+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T21:00:00+00:00, run_after=2025-12-20T22:00:00+00:00
+[2025-12-20T22:48:20.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.896 seconds
+[2025-12-20T22:48:50.697+0000] {processor.py:157} INFO - Started process (PID=608) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:48:50.699+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:48:50.700+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:48:50.700+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:48:50.739+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:48:50.975+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:48:50.975+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:48:51.022+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:48:51.022+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T21:00:00+00:00, run_after=2025-12-20T22:00:00+00:00
+[2025-12-20T22:48:51.341+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.648 seconds
+[2025-12-20T22:49:21.920+0000] {processor.py:157} INFO - Started process (PID=613) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:49:21.922+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:49:21.928+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:49:21.927+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:49:21.998+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:49:22.164+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:49:22.163+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:49:22.215+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:49:22.215+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T21:00:00+00:00, run_after=2025-12-20T22:00:00+00:00
+[2025-12-20T22:49:22.277+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.377 seconds
+[2025-12-20T22:49:52.474+0000] {processor.py:157} INFO - Started process (PID=618) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:49:52.476+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:49:52.479+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:49:52.478+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:49:52.536+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:49:52.794+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:49:52.794+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:49:52.955+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:49:52.955+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T21:00:00+00:00, run_after=2025-12-20T22:00:00+00:00
+[2025-12-20T22:49:53.044+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.579 seconds
+[2025-12-20T22:50:23.811+0000] {processor.py:157} INFO - Started process (PID=623) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:50:23.813+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:50:23.814+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:50:23.814+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:50:23.853+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:50:24.036+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:50:24.036+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:50:24.092+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:50:24.092+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T21:00:00+00:00, run_after=2025-12-20T22:00:00+00:00
+[2025-12-20T22:50:24.162+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.357 seconds
+[2025-12-20T22:50:55.041+0000] {processor.py:157} INFO - Started process (PID=638) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:50:55.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:50:55.048+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:50:55.046+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:50:55.112+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:50:55.822+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:50:55.821+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:50:55.926+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:50:55.926+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:50:56.026+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.995 seconds
+[2025-12-20T22:51:26.545+0000] {processor.py:157} INFO - Started process (PID=649) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:51:26.549+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:51:26.551+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:51:26.551+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:51:26.603+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:51:26.786+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:51:26.785+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:51:26.836+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:51:26.836+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:51:26.894+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.356 seconds
+[2025-12-20T22:51:57.319+0000] {processor.py:157} INFO - Started process (PID=654) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:51:57.320+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:51:57.322+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:51:57.322+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:51:57.366+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:51:57.625+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:51:57.625+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:51:57.676+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:51:57.676+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:51:57.739+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.426 seconds
+[2025-12-20T22:52:28.218+0000] {processor.py:157} INFO - Started process (PID=659) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:52:28.220+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:52:28.221+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:52:28.221+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:52:28.263+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:52:28.428+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:52:28.427+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:52:28.479+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:52:28.479+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:52:28.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.322 seconds
+[2025-12-20T22:52:58.667+0000] {processor.py:157} INFO - Started process (PID=664) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:52:58.669+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:52:58.671+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:52:58.670+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:52:58.711+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:52:58.922+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:52:58.921+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:52:59.194+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:52:59.193+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:52:59.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.617 seconds
+[2025-12-20T22:53:29.697+0000] {processor.py:157} INFO - Started process (PID=669) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:53:29.699+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:53:29.701+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:53:29.700+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:53:29.744+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:53:29.899+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:53:29.899+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:53:29.950+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:53:29.950+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:53:30.029+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.337 seconds
+[2025-12-20T22:54:00.517+0000] {processor.py:157} INFO - Started process (PID=674) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:54:00.519+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:54:00.521+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:54:00.520+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:54:00.612+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:54:00.785+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:54:00.785+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:54:00.836+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:54:00.836+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:54:00.898+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.389 seconds
+[2025-12-20T22:54:31.303+0000] {processor.py:157} INFO - Started process (PID=679) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:54:31.304+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:54:31.306+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:54:31.305+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:54:31.342+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:54:31.510+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:54:31.510+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:54:31.586+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:54:31.585+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:54:31.670+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.373 seconds
+[2025-12-20T22:55:02.061+0000] {processor.py:157} INFO - Started process (PID=684) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:55:02.062+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:55:02.067+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:55:02.064+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:55:02.181+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:55:02.469+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:55:02.469+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:55:02.526+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:55:02.526+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:55:02.596+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.545 seconds
+[2025-12-20T22:55:33.112+0000] {processor.py:157} INFO - Started process (PID=689) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:55:33.113+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:55:33.115+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:55:33.115+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:55:33.173+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:55:33.658+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:55:33.658+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:55:33.737+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:55:33.737+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:55:33.845+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.742 seconds
+[2025-12-20T22:56:04.047+0000] {processor.py:157} INFO - Started process (PID=694) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:56:04.049+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:56:04.052+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:56:04.052+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:56:04.146+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:56:04.463+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:56:04.462+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:56:04.595+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:56:04.594+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:56:04.751+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.715 seconds
+[2025-12-20T22:56:35.075+0000] {processor.py:157} INFO - Started process (PID=699) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:56:35.077+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:56:35.083+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:56:35.079+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:56:35.143+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:56:35.671+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:56:35.670+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:56:35.769+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:56:35.769+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:56:35.854+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.787 seconds
+[2025-12-20T22:57:06.367+0000] {processor.py:157} INFO - Started process (PID=704) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:57:06.368+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:57:06.376+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:57:06.375+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:57:06.464+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:57:06.913+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:57:06.912+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:57:07.473+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:57:07.473+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:57:07.569+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 1.230 seconds
+[2025-12-20T22:57:37.916+0000] {processor.py:157} INFO - Started process (PID=709) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:57:37.917+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:57:37.921+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:57:37.920+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:57:38.004+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:57:38.348+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:57:38.348+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:57:38.434+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:57:38.433+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:57:38.525+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.624 seconds
+[2025-12-20T22:58:09.343+0000] {processor.py:157} INFO - Started process (PID=714) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:58:09.350+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:58:09.354+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:58:09.353+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:58:09.439+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:58:09.680+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:58:09.679+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:58:09.769+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:58:09.769+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:58:09.902+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.574 seconds
+[2025-12-20T22:58:41.074+0000] {processor.py:157} INFO - Started process (PID=719) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:58:41.077+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:58:41.085+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:58:41.084+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:58:41.199+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:58:41.583+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:58:41.583+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:58:41.692+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:58:41.691+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:58:41.771+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.719 seconds
+[2025-12-20T22:59:12.223+0000] {processor.py:157} INFO - Started process (PID=724) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:59:12.224+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:59:12.226+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:59:12.226+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:59:12.283+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:59:12.515+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:59:12.514+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:59:12.570+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:59:12.570+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:59:12.633+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.416 seconds
+[2025-12-20T22:59:43.091+0000] {processor.py:157} INFO - Started process (PID=729) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:59:43.093+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T22:59:43.100+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:59:43.099+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:59:43.228+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T22:59:43.629+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:59:43.629+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T22:59:43.776+0000] {logging_mixin.py:151} INFO - [2025-12-20T22:59:43.775+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T22:00:00+00:00, run_after=2025-12-20T23:00:00+00:00
+[2025-12-20T22:59:43.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.839 seconds
+[2025-12-20T23:00:14.785+0000] {processor.py:157} INFO - Started process (PID=737) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:00:14.787+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T23:00:14.789+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:00:14.788+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:00:14.928+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:00:15.409+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:00:15.408+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T23:00:15.520+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:00:15.519+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T23:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T23:00:15.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.865 seconds
+[2025-12-20T23:00:45.908+0000] {processor.py:157} INFO - Started process (PID=746) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:00:45.909+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T23:00:45.911+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:00:45.911+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:00:45.974+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:00:46.157+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:00:46.156+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T23:00:46.240+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:00:46.239+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T23:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T23:00:46.924+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 1.026 seconds
+[2025-12-20T23:01:17.294+0000] {processor.py:157} INFO - Started process (PID=752) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:01:17.296+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T23:01:17.299+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:01:17.298+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:01:17.361+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:01:17.569+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:01:17.569+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T23:01:17.642+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:01:17.641+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T23:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T23:01:18.239+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.955 seconds
+[2025-12-20T23:01:48.700+0000] {processor.py:157} INFO - Started process (PID=757) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:01:48.702+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T23:01:48.704+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:01:48.703+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:01:48.749+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:01:48.964+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:01:48.964+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T23:01:49.037+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:01:49.036+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T23:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T23:01:49.099+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 0.406 seconds
+[2025-12-20T23:02:19.521+0000] {processor.py:157} INFO - Started process (PID=762) to work on /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:02:19.532+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/energy_data_flow_orchestration.py for tasks to queue
+[2025-12-20T23:02:19.537+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:02:19.536+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:02:19.697+0000] {processor.py:839} INFO - DAG(s) dict_keys(['simple_energy_data_verification']) retrieved from /opt/airflow/dags/energy_data_flow_orchestration.py
+[2025-12-20T23:02:20.134+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:02:20.133+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-12-20T23:02:20.211+0000] {logging_mixin.py:151} INFO - [2025-12-20T23:02:20.211+0000] {dag.py:3677} INFO - Setting next_dagrun for simple_energy_data_verification to 2025-12-20T23:00:00+00:00, run_after=2025-12-21T00:00:00+00:00
+[2025-12-20T23:02:20.593+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy_data_flow_orchestration.py took 1.090 seconds

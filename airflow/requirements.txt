@@ -1,0 +1,4 @@
+apache-airflow-providers-postgres==5.5.1
+apache-airflow-providers-docker==3.7.0
+psycopg2-binary==2.9.6
+minio==7.1.17

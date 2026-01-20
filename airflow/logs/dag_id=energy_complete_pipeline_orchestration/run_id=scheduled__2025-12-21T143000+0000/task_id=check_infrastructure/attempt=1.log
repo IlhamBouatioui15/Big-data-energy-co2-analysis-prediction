@@ -1,0 +1,25 @@
+[2025-12-21T15:00:04.854+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: energy_complete_pipeline_orchestration.check_infrastructure scheduled__2025-12-21T14:30:00+00:00 [queued]>
+[2025-12-21T15:00:04.889+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: energy_complete_pipeline_orchestration.check_infrastructure scheduled__2025-12-21T14:30:00+00:00 [queued]>
+[2025-12-21T15:00:04.890+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2025-12-21T15:00:04.971+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): check_infrastructure> on 2025-12-21 14:30:00+00:00
+[2025-12-21T15:00:05.019+0000] {standard_task_runner.py:57} INFO - Started process 1477 to run task
+[2025-12-21T15:00:05.037+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'energy_complete_pipeline_orchestration', 'check_infrastructure', 'scheduled__2025-12-21T14:30:00+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/energy_pipeline_orchestration.py', '--cfg-path', '/tmp/tmpd1ooe4kh']
+[2025-12-21T15:00:05.071+0000] {standard_task_runner.py:85} INFO - Job 101: Subtask check_infrastructure
+[2025-12-21T15:00:07.589+0000] {task_command.py:415} INFO - Running <TaskInstance: energy_complete_pipeline_orchestration.check_infrastructure scheduled__2025-12-21T14:30:00+00:00 [running]> on host 1fdfe70c11b0
+[2025-12-21T15:00:09.573+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='energy_team' AIRFLOW_CTX_DAG_ID='energy_complete_pipeline_orchestration' AIRFLOW_CTX_TASK_ID='check_infrastructure' AIRFLOW_CTX_EXECUTION_DATE='2025-12-21T14:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-21T14:30:00+00:00'
+[2025-12-21T15:00:09.579+0000] {logging_mixin.py:151} INFO - 
+======================================================================
+[2025-12-21T15:00:09.580+0000] {logging_mixin.py:151} INFO - 🔍 VÉRIFICATION DE L'INFRASTRUCTURE
+[2025-12-21T15:00:09.582+0000] {logging_mixin.py:151} INFO - ======================================================================
+[2025-12-21T15:00:09.593+0000] {logging_mixin.py:151} INFO - ✅ Kafka           - kafka:29092 - OK
+[2025-12-21T15:00:09.597+0000] {logging_mixin.py:151} INFO - ✅ MinIO           - minio:9000 - OK
+[2025-12-21T15:00:09.600+0000] {logging_mixin.py:151} INFO - ✅ PostgreSQL      - postgres:5432 - OK
+[2025-12-21T15:00:09.606+0000] {logging_mixin.py:151} INFO - ✅ Cassandra       - cassandra:9042 - OK
+[2025-12-21T15:00:09.614+0000] {logging_mixin.py:151} INFO - ✅ Spark Master    - spark-master:7077 - OK
+[2025-12-21T15:00:09.617+0000] {logging_mixin.py:151} INFO - 
+======================================================================
+[2025-12-21T15:00:09.618+0000] {logging_mixin.py:151} INFO - ✅ Infrastructure OK - Pipeline peut démarrer
+[2025-12-21T15:00:09.620+0000] {python.py:194} INFO - Done. Returned value was: True
+[2025-12-21T15:00:10.451+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=energy_complete_pipeline_orchestration, task_id=check_infrastructure, execution_date=20251221T143000, start_date=20251221T150004, end_date=20251221T150010
+[2025-12-21T15:00:10.748+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-21T15:00:11.082+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,35 @@
+Model trained on: 2025-12-19 16:52:24.523040
+Training samples: 104
+Test samples: 27
+Features: 25
+MAE (test): 1212.38
+RMSE (test): 2109.38
+R² (test): 0.9885
+MAPE (test): 4.09%
+
+Features used:
+  - region_encoded
+  - hour
+  - day_of_week
+  - month
+  - day
+  - is_weekend
+  - is_peak_hour
+  - nuclear
+  - wind
+  - solar
+  - hydro
+  - gas
+  - coal
+  - biomass
+  - geothermal
+  - oil
+  - total_production
+  - total_import
+  - total_export
+  - fossil_free_percentage
+  - renewable_percentage
+  - carbon_intensity
+  - renewable_ratio
+  - fossil_ratio
+  - production_consumption_ratio
