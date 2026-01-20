@@ -33,6 +33,6 @@ Le projet exploite des datasets globaux (type *Electricity Maps* / *Our World in
 ## Architecture du Système
 L'architecture repose sur un pipeline de données distribué, garantissant scalabilité et performance.
 
-![Architecture du Projet](https://raw.githubusercontent.com/IlhamBouatioui15/Big-data-energy-co2-analysis-prediction/main/architecture.png)
+![Architecture du Projet](https://raw.githubusercontent.com/IlhamBouatioui15/Big-data-energy-co2-analysis-prediction/main/architecture.jpeg)
 
 
